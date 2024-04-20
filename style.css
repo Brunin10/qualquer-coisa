@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+header{
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: "Dancing Script", cursive;
+}
+
+nav{
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
 body {
     display: flex;
     font-family: "Dancing Script", cursive;
     justify-content: right;
     align-items: center;
-    background-color: ;
-}
-header{
-    justify-content: flex-end;
-    align-items: flex-start;
-    font-family: "Dancing Script", cursive;
+    background-color: darkcyan;
 }
